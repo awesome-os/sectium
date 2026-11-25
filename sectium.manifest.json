@@ -3,6 +3,7 @@
   "abiMagic": "0x33564742",
   "casLayout": "v11",
   "firstClassLanguages": ["stealifylang", "html5-web-components", "typescript-direct"],
+  "firstClassLanguages": ["stealifylang", "html5-web-components", "typescript-direct"],
   "renderers": [
     { "id": "skia", "kind": "2d-vector-text", "repository": "repository://github.com/awesome-os/skia@main" },
     { "id": "dawn-webgpu", "kind": "3d-gpu-compute", "repository": "repository://github.com/awesome-os/dawn@main" },
