@@ -1,0 +1,16 @@
+{
+  "schema": "awesome-os-sectium-driver-manifest-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "renderers": [
+    { "id": "skia", "kind": "2d-vector-text", "repository": "repository://github.com/awesome-os/skia@main" },
+    { "id": "dawn-webgpu", "kind": "3d-gpu-compute", "repository": "repository://github.com/awesome-os/dawn@main" },
+    { "id": "blink", "kind": "web-dom-engine", "repository": "repository://github.com/awesome-os/blink@main" },
+    { "id": "qt", "kind": "native-ui-toolkit", "repository": "repository://github.com/awesome-os/qt@main" },
+    { "id": "tty-kitty", "kind": "zero-gpu-terminal", "repository": "repository://github.com/awesome-os/awesome-os@main" }
+  ],
+  "shells": [
+    { "id": "awesome-os-desktop", "displayBackend": "holo-display-win32", "repository": "repository://github.com/awesome-os/awesome-os-desktop@main" },
+    { "id": "electron-sectium-browser-shell", "displayBackend": "holo-display-electron", "repository": "repository://github.com/awesome-os/sectium-browser@main" }
+  ]
+}

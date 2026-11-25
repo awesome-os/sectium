@@ -1,0 +1,13 @@
+{
+  "name": "@awesome-os/sectium",
+  "version": "0.1.0",
+  "description": "Sectium — Universal Display Driver, Post-Chromium Compositor & Multi-Renderer Window Manager (Skia, Dawn WebGPU, Blink, Qt, Kitty-Ink TTY)",
+  "type": "module",
+  "main": "./index.mts",
+  "module": "./index.mts",
+  "types": "./index.mts",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "node --test sectium.test.mts"
+  }
+}
